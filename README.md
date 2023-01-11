@@ -14,3 +14,5 @@
 
 - #### Basic Introduction to Data Science:
   - Unsupervised and Supervised methods like clustering, classification etc.
+
+for more click [here](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/CS2201/)
