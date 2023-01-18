@@ -5,7 +5,7 @@ Instructor: Kripabandhu Ghosh
 ### Detailed Syllabus
 
 - #### Python implementation of numerical methods: 
-  - Numerical Solution of Equations (Bisection, Newton-Raphson)
+  - Numerical Solution of Equations (Bisection, Newton-Raphson, Regula falsi)
   - Interpolation (Newton's Forward, Lagrange)
 
 - #### Python tools and applications:
