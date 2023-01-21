@@ -1,6 +1,5 @@
 # CS2201
 ## Introduction to Computation
-Instructor: Kripabandhu Ghosh
 
 ### Detailed Syllabus
 
