@@ -119,6 +119,7 @@ while j>0:
     #print(int(num))
     print(d[num], end=' ')
     j-=1
+print("\n")
 
 #13
 from math import sin
@@ -130,7 +131,7 @@ xv=[]
 a=0
 b=1
 step = 0.01
-for i in np.arange(a,b,step):
+for i in np.arange(a,b+step,step):
     if f(i)*f(i+step)<0:
         xv.append((i,i+step))
 
@@ -177,9 +178,6 @@ else:
 # define a function
 f = lambda x: x**3 +x**2 -x
 
-#initial guesses
-x0=[-15,0,20]
-
 #definr derivative
 def dfdx(x):
     h=10e-4
@@ -187,21 +185,22 @@ def dfdx(x):
 
 def h(x):
     return -f(x)/dfdx(x)
-print("\tx\t\tf(x)")
 
-k=0
-while True:
-    # count
-    k+=1
-    x0+=h(x0)
-    print("%i\t%9.6f\t%9.6f"%(k,x0,f(x0)))
-    if abs(f(x0))<10**(-3):
-        sol = x0
-        break
+soln=[]
 
-print("\n")
-print(f"The solution: {sol}")
+a=0
+b=1
+step = 0.01
+for x0 in np.arange(a,b,step):
+    k=0
+    while True:
+        # count
+        k+=1
+        x0+=h(x0)
+        accuracy=10**(-5)
+        if abs(f(x0))<accuracy:
+            sol = x0
+            break
+    soln.append(round(sol,4))
 
-
-
-
+print(f"The solution: {set(soln)}")
