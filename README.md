@@ -16,4 +16,4 @@
   - Unsupervised and Supervised methods like clustering, classification etc.
 
 for more click [here](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/CS2201/)
-for problem sets and answers click [here](https://docs.google.com/document/d/1J9POIQxRu_f0pFDaO-FS0DEN64xWiuHcs5nx5wrZ3l4/edit)
+and for problem sets and answers click [here](https://docs.google.com/document/d/1J9POIQxRu_f0pFDaO-FS0DEN64xWiuHcs5nx5wrZ3l4/edit)
