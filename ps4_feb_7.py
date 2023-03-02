@@ -46,6 +46,36 @@ print(np.arange(1,3.5,0.5))
 print(np.arange(1,4.5,0.5))
 
 #6
+def encrypt():
+    strg=str(input('Enter a string: '))
+    l=[]
+    for i in strg:
+        l.append(chr(122-(ord(i)-97)))
+    out=''.join(l)
+    return(out)
+
+#7
+strg = str(input('enter a string: '))
+
+x= len(strg)
+
+if x%2==0:
+    print(strg[x//2:]+strg[:x//2])
+else:
+    print(strg[x//2+1:]+strg[x//2]+strg[:x//2])
+
+#8
+lst=str(input('Enter comma seperated list elements: '))
+lst2=lst.split(',')
+lst3=[float(x) for x in lst2]
+
+ls=[]
+for i in lst3:
+    if i not in ls:
+        ls.append(i)
+
+print('modified list:',ls)
+
 
 
 
